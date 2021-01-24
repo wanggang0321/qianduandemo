@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        header,
+        nav,
+        section {
+            height: 120px;
+            background-color: pink;
+            margin: 10px;
+        }
+        
+        video {
+            width: 300px;
+        }
+    </style>
 </head>
 
 <body>
-
+    <header> header </header>
+    <nav> nav </nav>
+    <section> section </section>
+    <!-- <audio src="media/mangzhong.mp3" controls="controls" autoplay="autoplay"></audio> -->
+    <audio controls="controls">
+        <source src="media/mangzhong.mp3" type="audio/mpeg">
+        <source src="media/mangzhong.ogg" type="audio/ogg">
+            您的浏览器版本太低，不支持audio播放
+    </audio>
+    <!--  -->
+    <video src="media/index_ai_video.mp4" controls="controls"></video>
 </body>
 
 </html>
